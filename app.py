@@ -2,7 +2,6 @@ import streamlit as st
 import requests
 from datetime import datetime
 import os
-import cv2
 from kw_indexing import query_search, schema_formulation, create_index, precision_recall_f1_dcg_metric
 
 st.set_page_config('SubtleSearch', layout='wide')
