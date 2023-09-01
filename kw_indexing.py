@@ -1,4 +1,3 @@
-!pip install whoosh
 
 from whoosh.fields import Schema, TEXT, NUMERIC, DATETIME, ID
 from whoosh.index import create_in, open_dir
